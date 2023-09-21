@@ -6,8 +6,14 @@ body {
     background-color: #1f2937;
 }
 
+#hero {
+    height: 400px;
+    padding: 20px 300px;
+}
+
 header {
     display: flex;
+    gap: 20px;
 }
 
 .header_logo {
@@ -28,5 +34,6 @@ header {
 }
 
 .container1 {
-    /* display: flex; */
+    display: flex;
+    margin-top: 10%;
 }
