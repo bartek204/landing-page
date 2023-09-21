@@ -1,0 +1,17 @@
+body {
+    margin: auto;
+}
+
+#hero, footer {
+    background-color: #1f2937;
+    margin: 0px;
+}
+
+header {
+    border: 5px solid red;
+    display: flex;
+}
+
+.header_logo {
+    margin-right: auto;
+}
