@@ -7,7 +7,7 @@ body {
 }
 
 #hero {
-    height: 400px;
+    height: 450px;
     padding: 20px 300px;
 }
 
@@ -22,9 +22,13 @@ header {
     color: #F9FAF8;
 }
 
-.header_link {
+.header_link, .hero_subtext {
     font-size: 18px;
     color: #E5E7EB;
+}
+
+.hero_subtext {
+    margin: 7px 0px 7px 0px;
 }
 
 .hero_main_text {
@@ -35,5 +39,29 @@ header {
 
 .container1 {
     display: flex;
-    margin-top: 10%;
+    margin-top: 12%;
+}
+
+.hero_content, .hero_img {
+    flex: 1;
+}
+
+.hero_content {
+    margin-right: 5px;
+}
+
+.hero_img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: grey;
+}
+
+button {
+    background-color: #3882F6;
+    width: 90px;
+    height: 30px;
+    border-radius: 9px;
+    font-weight: 800;
+    color: white;
 }
