@@ -2,6 +2,7 @@ body {
     margin: auto;
 }
 
+/* first section BEGINNING */
 #hero, footer {
     background-color: #1f2937;
 }
@@ -64,4 +65,27 @@ button {
     border-radius: 9px;
     font-weight: 800;
     color: white;
+}
+/* first section END */
+
+/* second section BEGINNING */
+.second_section {
+    display: flex;
+    align-items: center;
+    height: 450px;
+    flex-direction: column;
+}
+
+p {
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: bolder;
+}
+
+.main_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    border: solid 5px red;
 }
