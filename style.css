@@ -105,3 +105,13 @@ p {
     text-align: center;
 }
 /* second section END */
+
+/* third section BEGINNING */
+.third_section {
+    height: 350px;
+    background-color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* try to make both texts in one container, somehow (takes less space and code is more readable) */
