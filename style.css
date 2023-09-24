@@ -153,8 +153,28 @@ p {
     align-items: center;
 }
 
+.call_to_action_container {
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
+}
 
+.call_to_action_title, .call_to_action_text {
+    color: #F9FAF8;
+}
 
+.call_to_action_title {
+    font-size: 24px;
+}
+
+.call_to_action_text {
+    font-size: 18px;
+}
+
+.call_to_action_button {
+    margin-right: 100px;
+}
 /* FINAL TOUCHES:
 - button borders (fisrt button's border needs to be deleted, but second button needs white border)
 - decrease second section height a bit */
