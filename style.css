@@ -142,3 +142,19 @@ p {
     justify-content: center;
     align-items: center;
 }
+
+.blue_container {
+    background-color: #3882F6;
+    width: 900px;
+    height: 150px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+/* FINAL TOUCHES:
+- button borders (fisrt button's border needs to be deleted, but second button needs white border)
+- decrease second section height a bit */
