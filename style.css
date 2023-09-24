@@ -62,9 +62,13 @@ button {
     background-color: #3882F6;
     width: 90px;
     height: 30px;
-    border-radius: 9px;
+    border-radius: 8px;
     font-weight: 800;
     color: white;
+}
+
+.hero_button {
+    border-style: none;
 }
 /* first section END */
 
@@ -72,7 +76,7 @@ button {
 .second_section {
     display: flex;
     align-items: center;
-    height: 450px;
+    height: 430px;
     flex-direction: column;
 }
 
@@ -174,6 +178,7 @@ p {
 
 .call_to_action_button {
     margin-right: 100px;
+    border: #F9FAF8 solid 2px;
 }
 /* fourth section END */
 
@@ -189,5 +194,4 @@ footer {
 }
 
 /* FINAL TOUCHES:
-- button borders (fisrt button's border needs to be deleted, but second button needs white border)
-- decrease second section height a bit */
+- button borders (fisrt button's border needs to be deleted)*/
