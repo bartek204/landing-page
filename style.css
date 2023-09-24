@@ -175,6 +175,19 @@ p {
 .call_to_action_button {
     margin-right: 100px;
 }
+/* fourth section END */
+
+footer {
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer_text {
+    color: #F9FAF8;
+}
+
 /* FINAL TOUCHES:
 - button borders (fisrt button's border needs to be deleted, but second button needs white border)
 - decrease second section height a bit */
